@@ -2,7 +2,7 @@
   <div id="app">
     <div class="column is-half is-offset-one-quarter">
       <img src="./assets/pokedex.jpg" alt="">
-      <h4 class="is-size-4">POKEDEX</h4>
+      <h4 class="is-size-4">POKEDEX - TESTE</h4>
       <input type="text" placeholder="Search by name" v-model="search" class="input is-rounded">
       <button type="button" class="button is-fullwidth is-success" id="btnSearch" @click="searchResult">Search</button>
       <div v-for="(poke,index) in filteredPokemons" :key="poke.url">
